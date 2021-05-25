@@ -2,7 +2,7 @@ $focus-bg: #fe0211;
 $focus-text: #f8c6c6;
 $relax-short-bg: #53c1da;
 $relax-short-text: #cbfbfe;
-$relax-long-text: #00a355;
+$relax-long-bg: #00a355;
 $relax-long-text: #b8ebdb;
 
 $header: 72px;
@@ -17,3 +17,4 @@ $timer-2: 605px;
 @import "global";
 @import "focus-timer";
 @import "relax-short-timer";
+@import "long-break-timer";

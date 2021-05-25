@@ -1,0 +1,53 @@
+.relax-container {
+  background: $relax-short-bg;
+  opacity: 70%;
+  min-height: 694px;
+  min-width: 605px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+.title {
+  text-align: center;
+  color: $relax-short-text;
+  font-size: $timer-header;
+  margin-top: 30px;
+  letter-spacing: $spacing;
+  font-weight: lighter;
+  transform: translateX(15px);
+}
+
+.timer {
+  font-size: $clock-size;
+  color: $relax-short-text;
+  letter-spacing: $spacing;
+  transform: translateX(15px);
+}
+
+.pause-btn {
+  font-size: 2.5em;
+  padding: 1em;
+  margin-bottom: 0.5em;
+  border-radius: 50px;
+  box-shadow: -1px -1px -0px $relax-short-text, -2px -2px 0px $relax-short-text,
+    -3px -3px 0px $relax-short-text, -4px -4px 0px $relax-short-text,
+    -5px -5px 0px $relax-short-text, -6px -6px 0px $relax-short-text;
+  // box-shadow: -10px 10px 0px 0px #000000;  //? option 2
+  border: 1px solid $relax-short-text;
+  color: $relax-short-text;
+  background: none;
+  cursor: pointer;
+}
+
+.messages h3 {
+  margin-bottom: 5rem;
+  letter-spacing: $spacing;
+  color: $relax-short-text;
+  font-size: 25px;
+  transform: translateX(15px);
+}

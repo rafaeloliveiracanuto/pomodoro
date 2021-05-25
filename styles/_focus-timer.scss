@@ -1,11 +1,4 @@
-body {
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-  margin: 0;
-}
-
-.container {
+.focus-container {
   background: $focus-bg;
   opacity: 70%;
   min-height: 694px;

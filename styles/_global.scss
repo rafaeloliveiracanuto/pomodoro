@@ -6,4 +6,8 @@
 
 body {
   font-family: "Red Hat Display", sans-serif;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  margin: 0;
 }

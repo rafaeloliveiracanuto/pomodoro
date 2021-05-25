@@ -9,6 +9,10 @@ $header: 72px;
 $timer-header: 48px;
 $clock-size: 96px;
 $text-size: 24px;
-$spacing: 40%;
+$spacing: 25px;
+
+$timer-h: 694px;
+$timer-2: 605px;
 
 @import "global";
+@import "focus-timer";

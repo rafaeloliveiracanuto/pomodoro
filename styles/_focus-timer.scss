@@ -1,0 +1,97 @@
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  margin: 0;
+}
+
+.container {
+  background: $focus-bg;
+  opacity: 70%;
+  min-height: 694px;
+  min-width: 605px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+.title {
+  text-align: center; //! fix centering
+  color: $focus-text;
+  font-size: $timer-header;
+  margin-top: 30px;
+  letter-spacing: $spacing;
+  font-weight: lighter;
+  transform: translateX(15px);
+}
+
+.timer {
+  font-size: $clock-size;
+  color: $focus-text;
+  letter-spacing: $spacing;
+  transform: translateX(15px);
+}
+
+.pause-btn {
+  font-size: 2.5em;
+  padding: 1em;
+  margin-bottom: 4.5em;
+  border-radius: 50px;
+  box-shadow: -1px -1px -0px $focus-text, -2px -2px 0px $focus-text,
+    -3px -3px 0px $focus-text, -4px -4px 0px $focus-text,
+    -5px -5px 0px $focus-text, -6px -6px 0px $focus-text;
+  // box-shadow: -10px 10px 0px 0px #000000;  //? option 2
+  border: 1px solid $focus-text;
+  color: $focus-text;
+  background: none;
+  cursor: pointer;
+}
+
+.info-display {
+  display: flex;
+}
+
+.round {
+  color: $focus-text;
+  font-style: italic;
+  letter-spacing: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5em;
+  border: 1px solid $focus-text;
+  border-right: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  span {
+    font-size: 64px;
+    font-style: normal;
+  }
+}
+
+.complete {
+  color: $focus-text;
+  font-style: italic;
+  letter-spacing: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5em;
+  border: 1px solid $focus-text;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  span {
+    font-size: 64px;
+    font-style: normal;
+  }
+}
